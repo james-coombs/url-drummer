@@ -1,0 +1,27 @@
+{
+"manifest_version": 2,
+    "name": "URL Drummer",
+    "description": "Play a unique drum pattern based on your URL address.",
+    "version": "1.0",
+    "background": {
+        "persistent": false,
+        "scripts": ["js/main.js"]
+    },
+    "permissions": [
+        "activeTab",
+        "history",
+        "http://*/*", 
+        "https://*/*",
+        "storage",
+        "tabs"
+    ],
+    "icons": {
+        "16": "img/icon16.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+        }
+    }
+}
